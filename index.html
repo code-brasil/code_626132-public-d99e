@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduMaster - Plataforma de Cursos Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-500 p-4">
+        <h1 class="text-white text-2xl">EduMaster</h1>
+        <nav class="mt-2">
+            <a href="index.html" class="text-white mr-4">Home</a>
+            <a href="catalogo_cursos.html" class="text-white mr-4">Cursos</a>
+            <a href="cadastro_login.html" class="text-white">Login</a>
+        </nav>
+    </header>
+    <main class="p-4">
+        <section class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Bem-vindo à EduMaster</h2>
+            <p>Plataforma online dedicada à oferta de cursos de alta qualidade em diversas áreas de conhecimento.</p>
+        </section>
+        <section>
+            <h2 class="text-xl font-bold mb-4">Destaques de Cursos</h2>
+            <div id="destaques" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Cursos em destaque serão carregados via JS -->
+            </div>
+        </section>
+    </main>
+    <footer class="bg-blue-500 p-4 mt-8">
+        <p class="text-white text-center">© 2024 EduMaster. Todos os direitos reservados.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
